@@ -1,6 +1,6 @@
 # Acquaintance Network of the Marvel Cinematic Universe
 
-The goal of this project is to obtain the acquaintance network of the characters in the MCU and calculate some basic characteristics in SQL, thus each task should be carried out in SQL, unless stated otherwise. To visualize the results you can use Python, gnuplot or any software of your choice. Make publication quality plots: Title, marked axes, legend if needed etc.. Use comments in your code to explain important steppes, so if you opened your project six months from now you should still understand what's going on. Explain in a report what you did, and what do you think it means based on the plots you've created and your network science knowledge. Provide sources if necessary.
+The goal of this project is to obtain the acquaintance network of the characters in the MCU and calculate some basic characteristics. To visualize the results you can use Python, gnuplot or any software of your choice. Make publication quality plots: Title, marked axes, legend if needed etc.. Use comments in your code to explain important steps, so if you opened your project six months from now you should still understand what's going on. Explain in a report what you did, and what do you think it means based on the plots you've created and your network science knowledge. Provide sources if necessary.
 
 Consider two characters to be connected if they have at least one line in the same movie. The database doesn't contain whether two characters talk to each other when they say their lines, so this is a slight simplification. The resulting network should be unweighted and undirected.
 
@@ -20,4 +20,14 @@ Tasks:
 
 7. Measure the degree correlation function of the network! Visualize the results! What does this tell you about the assortativity of the network?
 
+Results:
+
+- I explored the dataset through the different tables like characters, movies and mcu, looking for missing values, mistakes and basic statistics like average lines per character. I also visualized certain metrics based on the data like the number of movie apparences and total lines of characters.
+
+- Created the acquaintance network of the MCU characters:
+
 ![full_marvel_net](https://github.com/dbenc/mcu_network/assets/40838667/6259e081-199b-47e6-b707-6b73c7643dc1)
+
+- Calclated network metrics like degree distribution, clustering coefficient and degree correlation.
+
+- Improved on the acquaintance network by by considering only characters who have a line before or after a certain character, which can help us filter out the smaller characters and give us a truer picture of the network.
