@@ -22,7 +22,7 @@ Tasks:
 
 Results:
 
-See [jupyter notebook](https://github.com/dbenc/mcu_network/Marvel_network.ipynb).
+See [jupyter notebook](https://github.com/dbenc/mcu_network/blob/main/Marvel_network.ipynb).
 
 - I explored the dataset through the different tables like characters, movies and mcu, looking for missing values, mistakes and basic statistics like average lines per character. I also visualized certain metrics based on the data like the number of movie apparences and total lines of characters.
 
