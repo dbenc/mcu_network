@@ -6,19 +6,18 @@ Consider two characters to be connected if they have at least one line in the sa
 
 Tasks:
 
-    1.) Download the database from <https://www.kaggle.com/pdunton/marvel-cinematic-universe-dialogue.>
+1. Download the database from [Kaggle](https://www.kaggle.com/pdunton/marvel-cinematic-universe-dialogue).
 
-    2.) Load those tables to your database that are relevant in creating a network between the characters. Which are these? If any tables need some preprocessing/cleaning you should do it before this task in the environment of your choice. Assign each character a UUID!
+2. Load relevant tables into your database for creating a character network. Preprocess/clean tables as needed before this task in your chosen environment. Assign each character a UUID.
 
-    3.) Create the link list of the acquaintance network! You can use the environment of your choice to calculate permutations if you don't want to do it in SQL.
+3. Create the link list of the acquaintance network! You can use any environment to calculate permutations if you prefer not to do it in SQL.
 
-    4.) Visualize the network you've obtained! Nodes with more links should be bigger and label them according to who they represent. Who seem to be the most well connected nodes in this network? Are they the main characters of the MCU?                (<https://networkx.org/)>
+4. Visualize the network you've obtained! Nodes with more links should be bigger and labeled according to the characters they represent. Who are the most well-connected nodes in this network? Are they the main characters of the MCU?
 
-    5.) Calculate the degree distribution and the average degree  of the network. Visualize the results! What does the shape of the distribution tell you about this particular network?                (<http://networksciencebook.com/chapter/2#degree)>
+5. Calculate the degree distribution and the average degree of the network. Visualize the results! What does the shape of the distribution tell you about this particular network?
 
-    6.) Calculate the clustering coefficient for each node, from that obtain the average clustering, and also calculate the global clustering coefficient!\\\\
-    Visualize the results! How does the distribution look like? How does the average clustering compare to the global clustering?                (<http://networksciencebook.com/chapter/2#clustering>; <http://networksciencebook.com/chapter/2#advanced)>
+6. Calculate the clustering coefficient for each node, obtain the average clustering, and also calculate the global clustering coefficient! Visualize the results! How does the distribution look like? How does the average clustering compare to the global clustering?
 
-    7.) Measure degree correlation function of the network! Visualize the results! What does this tell you about the assortativity of the network?                (<http://networksciencebook.com/chapter/7#measuring-degree)>
+7. Measure the degree correlation function of the network! Visualize the results! What does this tell you about the assortativity of the network?
 
 ![full_marvel_net](https://github.com/dbenc/mcu_network/assets/40838667/6259e081-199b-47e6-b707-6b73c7643dc1)
