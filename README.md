@@ -1,4 +1,4 @@
 # Acquaintance Network of the Marvel Cinematic Universe
 University project to obtain the acquaintance network of the characters in the MCU and calculate some basic characteristics.
 
-![Acquaintance network](https://github.com/dbenc/mcu_network/blob/master/filtered.png?raw=true)
+![Acquaintance network](https://github.com/dbenc/mcu_network/blob/master/filtered.png)
