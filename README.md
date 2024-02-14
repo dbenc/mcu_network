@@ -22,6 +22,8 @@ Tasks:
 
 Results:
 
+See [jupyter notebook](https://github.com/dbenc/mcu_network/Marvel_network.ipynb).
+
 - I explored the dataset through the different tables like characters, movies and mcu, looking for missing values, mistakes and basic statistics like average lines per character. I also visualized certain metrics based on the data like the number of movie apparences and total lines of characters.
 
 - Created the acquaintance network of the MCU characters:
@@ -30,4 +32,6 @@ Results:
 
 - Calclated network metrics like degree distribution, clustering coefficient and degree correlation.
 
-- Improved on the acquaintance network by by considering only characters who have a line before or after a certain character, which can help us filter out the smaller characters and give us a truer picture of the network.
+- Improved on the acquaintance network by by considering only characters who have a line before or after a certain character, which can help us filter out the smaller characters and give us a truer picture of the network:
+
+![filtered](https://github.com/dbenc/mcu_network/assets/40838667/4217cb7b-6657-4a06-9728-d3570f381147)
